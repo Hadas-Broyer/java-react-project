@@ -1,0 +1,139 @@
+/* בר ניווט */
+
+/* פרטי איש מקצוע */
+.professional-details {
+  margin-top: 100px; /* פיצוי על ה-navbar */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  margin: 100px auto 20px;
+}
+
+.professional-details h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.professional-details p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.professional-details strong {
+  color: #4CAF50;
+}
+
+/* הצגת תמונות של איש המקצוע */
+.professional-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* .professional-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; 
+} */
+.professional-image {
+  max-width: 100%;  /* הגבלת הרוחב */
+  height: auto;     /* שמירה על יחס הגובה-רוחב */
+  display: block;
+  margin-bottom: 10px; /* רווח בין התמונות */
+}
+/* טופס הוספת תגובה */
+.comment-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.comment-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.comment-form div {
+  margin-bottom: 20px;
+}
+
+.comment-form label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.comment-form select,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+.comment-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment-form button:hover {
+  background-color: #45a049;
+}
+
+/* הצגת התגובות */
+.comment-section {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.comment-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.comment {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment .rating {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.comment small {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.comment p {
+  font-size: 1.1rem;
+  color: #555;
+}

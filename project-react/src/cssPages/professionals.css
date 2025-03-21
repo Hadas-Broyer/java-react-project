@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+    font-family: "Lato", sans-serif;
+  }
+
+
+.professionals-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.professional-card {
+    background: linear-gradient(135deg, #fb9999, #fff1f6); /* צבעים סגול וורוד */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* רוחב קבוע */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל להנפשה */
+    transition: transform 0.3s;
+}
+
+.professional-card:hover {
+    transform: scale(1.05); /* הגדלה בעת העברת העכבר */
+}
+
+.professional-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.professional-phone {
+    font-size: 16px;
+}

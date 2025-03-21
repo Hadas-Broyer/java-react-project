@@ -1,0 +1,115 @@
+/* הגדרת משתנים */
+:root {
+    --primary-color: #fff;
+    --cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodySignUp {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EEF0F7;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.signup-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    width: 90%;             
+    max-width: 1000px;      
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+}
+
+.signup-section {
+    background-color: linear-gradient(135deg, #fb9999, #fff1f6); 
+    height: 100%; 
+    width: 45%; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.signup-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.separator {
+    width: 10px; 
+    background: linear-gradient(135deg, #fb9999, #fff1f6); 
+    height: 100%; 
+    margin: 0 10px; 
+}
+
+
+.signup-box {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    width: 50vw;            
+    min-width: 350px;       
+}
+
+.signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fb9999; 
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+.MuiTextField-root {
+    background-color: #fb9999;
+    border-radius: 5px;
+}
+
+.MuiInputBase-root {
+    border: 1px solid #fb9999; 
+}
+
+.MuiInputBase-root:hover {
+    border: 1px solid #fb9999; 
+}
+
+.MuiInputBase-input {
+    color: #fff1f6; 
+}
+
+.signup-button {
+    margin-top: 16px; 
+    background: linear-gradient(90deg, #fb9999, #fff1f6); 
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.signup-button:hover {
+    background: linear-gradient(90deg, #fb9999, #fff1f6); 
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #BABDCB;
+    font-size: 12px;
+}

@@ -1,0 +1,87 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh; 
+    /* background: #ffffff;  */
+}
+
+/* אודות */
+.about-section {
+    background-color: linear-gradient(135deg, #fb9999, #fff1f6); /* צבע סגול וורוד */
+    /* padding: 40px; הגדלת הרפיה */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* הצללה */
+    height: 75%; /* גובה קופסת האודות */
+    /* display: flex;*/
+    align-items: center;
+    justify-content: center; 
+    margin-right: 10px; /* רווח בין האודות ללוגין */
+    text-align: center;
+  
+}
+
+/* לוגין */
+.login-section {
+    background-color: #ffffff; /* צבע הרקע של הלוגין */
+    padding: 30px;
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* הצללה */
+    height: 86%; /* גובה קבוע ללוגין */
+    width: 70%; /* רוחב קבוע ללוגין */
+}
+
+/* פסים צבעוניים */
+.separator {
+    width: 10px; /* רוחב הפסים */
+    background: linear-gradient(135deg,  #fb9999, #fff1f6); /* סגול וורוד */
+    height: 100vh; /* גובה הפסים */
+    margin: 0 10px; /* רווח בין הפסים לאזורים */
+}
+
+/* כותרות */
+.login-title, .about-title {
+    text-align: center; /* מרכז את הכותרת */
+    margin-bottom: 20px; /* רווח מתחת לכותרת */
+    color: #fb9999; /* סגול כהה */
+}
+
+/* טופס הלוגין */
+.login-form {
+    display: flex;
+    flex-direction: column; /* סידור השדות בעמודה */
+}
+
+.login-button {
+    margin-top: 16px; /* רווח מעל הלחצן */
+    background: linear-gradient(90deg,  #fb9999, #fff1f6); /* כחול וורוד */
+    color: white; /* טקסט בלבן */
+    font-weight: bold; /* טקסט מודגש */
+    border-radius: 5px; /* פינות מעוגלות לכפתור */
+    padding: 10px; /* רווח פנימי */
+}
+
+.login-button:hover {
+    background: linear-gradient(90deg, #fb9999, #fff1f6); /* שינוי צבע בהעברת עכבר */
+}
+
+/* צבעים עבור שדות הקלט */
+.MuiTextField-root {
+    margin-bottom: 16px;
+    background: #fb9999(255, 182, 193, 0.9); /* ורוד בהיר */
+    border-radius: 5px; /* פינות מעוגלות */
+}
+
+.MuiInputBase-root {
+    border: 1px solid #fb9999; /* גבול סגול כהה */
+}
+
+.MuiInputBase-root:hover {
+    border: 1px solid #fb9999; /* גבול ורוד בהעברת עכבר */
+}
+
+.MuiInputBase-input {
+    color: #fff1f6; /* טקסט סגול כהה בתוך השדות */
+}
